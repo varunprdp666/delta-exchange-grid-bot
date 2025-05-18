@@ -3,7 +3,7 @@ import os
 API_KEY = os.getenv("DELTA_API_KEY")
 API_SECRET = os.getenv("DELTA_API_SECRET")
 
-BASE_URL = "https://api.testnet.delta.exchange"
+BASE_URL = "https://cdn-ind.testnet.deltaex.org"
 
 SYMBOL = "ETHUSDT"
 PRODUCT_ID = 4  # ETHUSDT perpetual on testnet
